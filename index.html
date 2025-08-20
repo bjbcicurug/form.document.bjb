@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Form Dokumen Bjb</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="container">
+    <div class="container">
+  <!-- Logo -->
+  <img src="https://tse4.mm.bing.net/th/id/OIP.SL5NamsY1NmSOsnz1GxEnAHaEj?pid=Api&P=0&h=180" alt="Logo BJB" class="logo">
+    <h2>Form Kirim Dokumen</h2>
+    <form id="formDokumen">
+>
+      <label for="nama">Nama:</label>
+      <input type="text" id="nama" name="nama" required>
+
+      <label for="nip">NIP:</label>
+      <input type="text" id="nip" name="nip" required>
+
+      <label for="noRekening">No Rekening:</label>
+      <textarea id="noRekening" name="rekening" rows="2" required></textarea>
+
+      <label for="file">URL File: GDrive</label>
+      <input type="url" id="file" name="file" placeholder="https://docs.google.com/document/d/edit?usp=drive_link" required>
+
+      <button type="submit">Kirim</button>
+    </form>
+    <div id="status"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
