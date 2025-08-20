@@ -4,21 +4,20 @@ body {
   background: url("https://wallup.net/wp-content/uploads/2016/03/10/334322-photography-nature-landscape-sea-water-volcano-Indonesia.jpg") no-repeat center center fixed;
   background-size: cover;
   margin: 0;
-  padding: 10px;
+  padding: 25px;
 }
 
 .container {
   background: rgb(255, 255, 255);
   padding: 20px;
   max-width: 450px;
-  width: 100%;
-  margin: 20px auto;
+  margin: auto;
   border-radius: 10px;
   box-shadow: 0 5 10px #ccc;
 }
 
 h2 {
-  font-size: 18px;
+  font-size: 20px;
   text-align: center;
    margin-top: 10px; /* atur jarak dari atas */
   margin-bottom: 5px; /* jarak ke bawah */
@@ -32,17 +31,16 @@ input, textarea {
   margin-bottom: 11px;
   border: 1px solid #adabab;
   border-radius: 5px;
-  font-size: 14px;
 }
 
 button {
   width: 100%;
-  padding: 8px;
+  padding: 10px;
   background-color: #3a7afe;
   color: white;
   border: none;
   border-radius: 5px;
-  font-size: 14px;
+  font-size: 16px;
 }
 
 #status {
@@ -55,7 +53,6 @@ button {
   display: block;
   margin: 0 auto 15px; /* Biar ada jarak ke bawah */
   width: 160px; /* Bisa disesuaikan */
-  max-width: 80%;
-  height: auto;
 }
+
 
